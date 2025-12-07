@@ -20,10 +20,10 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-@app.get("/api/strategies/{year}/{round}/{driver}")
-async def get_strategy(year: int, round: int, driver: str):
+@app.get("/api/strategies/{year}/{round}")
+async def get_strategy(year: int, round: int):
     filtered_df = strategy_df[
-        (strategy_df['year'] == year) & (strategy_df['round'] == round) & (strategy_df['driver'] == driver)
+        (strategy_df['year'] == year) & (strategy_df['round'] == round)
     ]
     return filtered_df.to_dict(orient='records')
 

@@ -2,10 +2,7 @@ import { use, useEffect, useState } from "react";
 import CarouselYear from "./CarouselYear.jsx";
 import CarouselRounds from "./CarouselRounds.jsx";
 
-function Carousels() {
-  const [year, setYear] = useState(null);
-  const [round, setRound] = useState(null);
-  const [roundNumber, setRoundNumber] = useState(null);
+function Carousels( { year, setYear, round, setRound, roundNumber, setRoundNumber } ) {
   const [availableYears, setAvailableYears] = useState([]);
   const [availableRounds, setAvailableRounds] = useState([]);
   const [availableRoundNumbers, setAvailableRoundNumbers] = useState([]);
@@ -14,10 +11,10 @@ function Carousels() {
   // Load available years at startup
   useEffect(() => {
     const fetchAvailableYears = async () => {
-      const response = await fetch("http://127.0.0.1:8000/api/available_years");
-      const data = await response.json();
+        const response = await fetch("http://127.0.0.1:8000/api/available_years");
+        const data = await response.json();
 
-      setAvailableYears(data["available_years"]);
+        setAvailableYears(data["available_years"]);
     };
     fetchAvailableYears();
   }, []);
@@ -104,7 +101,6 @@ function Carousels() {
           }
           else {
             if (availableYears.includes(year + 1)) {
-              console.log("Incrementing year to", year + 1);
               setPendingIndex(0);
               setYear(year + 1);
             }
@@ -116,7 +112,6 @@ function Carousels() {
           }
           else {
             if (availableYears.includes(year - 1)) {
-              console.log("Decrementing year to", year - 1);
               setPendingIndex(1);
               setYear(year - 1);
             }
