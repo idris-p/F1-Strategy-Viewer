@@ -18,7 +18,7 @@ function Table( { year, roundNumber } ) {
 
     return (
         <div>
-            <div className="grid grid-cols-5 gap-4 p-4 border-b font-bold">
+            <div className="grid grid-cols-6 gap-4 p-4 border-b font-bold">
                 <div>
                     <h2>Position</h2>
                 </div>
@@ -34,9 +34,12 @@ function Table( { year, roundNumber } ) {
                 <div>
                     <h2>Stops</h2>
                 </div>
+                <div>
+                    <h2>Strategy</h2>
+                </div>
             </div>
             {data.map((driver, index) => (
-                <div key={driver.number} className="grid grid-cols-5 gap-4 p-4 border-b">
+                <div key={driver.number} className="grid grid-cols-6 gap-4 p-4 border-b">
                     <div>
                         <h2>{driver.finish_position}</h2>
                     </div>
