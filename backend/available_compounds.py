@@ -15,7 +15,7 @@ available_compounds = {
         13: ['SUPERSOFT', 'SOFT', 'MEDIUM'],
         14: ['SUPERSOFT', 'SOFT', 'MEDIUM'],
         15: ['HYPERSOFT', 'ULTRASOFT', 'SOFT'],
-        16: ['HYPERSOFT', 'ULTRASOFT', 'SUPERSOFT'],
+        16: ['HYPERSOFT', 'ULTRASOFT', 'SOFT'],
         17: ['SUPERSOFT', 'SOFT', 'MEDIUM'],
         18: ['ULTRASOFT', 'SUPERSOFT', 'SOFT'],
         19: ['HYPERSOFT', 'ULTRASOFT', 'SUPERSOFT'],

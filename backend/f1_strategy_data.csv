@@ -1399,26 +1399,26 @@ year,round,grand_prix,finish_position,number,driver,constructor,stint_compounds,
 2021,11,Hungarian Grand Prix,DNF,16,LEC,Ferrari,['I'],[0],0,0
 2021,11,Hungarian Grand Prix,DNF,18,STR,Aston Martin,['I'],[0],0,0
 2021,11,Hungarian Grand Prix,DSQ,5,VET,Aston Martin,"['I', 'I', 'M', 'H']","[2, 1, 33, 34]",3,70
-2021,12,Belgian Grand Prix,1,33,VER,Red Bull Racing,[],[1],0,1
-2021,12,Belgian Grand Prix,2,63,RUS,Williams,[],[1],0,1
-2021,12,Belgian Grand Prix,3,44,HAM,Mercedes,[],[1],0,1
-2021,12,Belgian Grand Prix,4,3,RIC,McLaren,[],[1],0,1
-2021,12,Belgian Grand Prix,5,5,VET,Aston Martin,[],[1],0,1
-2021,12,Belgian Grand Prix,6,10,GAS,AlphaTauri,[],[1],0,1
-2021,12,Belgian Grand Prix,7,31,OCO,Alpine,[],[1],0,1
-2021,12,Belgian Grand Prix,8,16,LEC,Ferrari,[],[1],0,1
-2021,12,Belgian Grand Prix,9,6,LAT,Williams,[],[1],0,1
-2021,12,Belgian Grand Prix,10,55,SAI,Ferrari,[],[1],0,1
-2021,12,Belgian Grand Prix,11,14,ALO,Alpine,[],[1],0,1
-2021,12,Belgian Grand Prix,12,77,BOT,Mercedes,[],[1],0,1
-2021,12,Belgian Grand Prix,13,99,GIO,Alfa Romeo Racing,[],[1],0,1
-2021,12,Belgian Grand Prix,14,4,NOR,McLaren,[],[1],0,1
-2021,12,Belgian Grand Prix,15,22,TSU,AlphaTauri,[],[1],0,1
-2021,12,Belgian Grand Prix,16,47,MSC,Haas F1 Team,[],[1],0,1
-2021,12,Belgian Grand Prix,17,9,MAZ,Haas F1 Team,[],[1],0,1
-2021,12,Belgian Grand Prix,18,7,RAI,Alfa Romeo Racing,[],[1],0,1
-2021,12,Belgian Grand Prix,19,11,PER,Red Bull Racing,[],[1],0,1
-2021,12,Belgian Grand Prix,20,18,STR,Aston Martin,[],[1],0,1
+2021,12,Belgian Grand Prix,1,33,VER,Red Bull Racing,['W'],[3],0,1
+2021,12,Belgian Grand Prix,2,63,RUS,Williams,['W'],[3],0,1
+2021,12,Belgian Grand Prix,3,44,HAM,Mercedes,['W'],[3],0,1
+2021,12,Belgian Grand Prix,4,3,RIC,McLaren,['W'],[3],0,1
+2021,12,Belgian Grand Prix,5,5,VET,Aston Martin,['W'],[3],0,1
+2021,12,Belgian Grand Prix,6,10,GAS,AlphaTauri,['W'],[3],0,1
+2021,12,Belgian Grand Prix,7,31,OCO,Alpine,['W'],[3],0,1
+2021,12,Belgian Grand Prix,8,16,LEC,Ferrari,['W'],[3],0,1
+2021,12,Belgian Grand Prix,9,6,LAT,Williams,['W'],[3],0,1
+2021,12,Belgian Grand Prix,10,55,SAI,Ferrari,['W'],[3],0,1
+2021,12,Belgian Grand Prix,11,14,ALO,Alpine,['W'],[3],0,1
+2021,12,Belgian Grand Prix,12,77,BOT,Mercedes,['W'],[3],0,1
+2021,12,Belgian Grand Prix,13,99,GIO,Alfa Romeo Racing,['W'],[3],0,1
+2021,12,Belgian Grand Prix,14,4,NOR,McLaren,['W'],[3],0,1
+2021,12,Belgian Grand Prix,15,22,TSU,AlphaTauri,['W'],[3],0,1
+2021,12,Belgian Grand Prix,16,47,MSC,Haas F1 Team,['W'],[3],0,1
+2021,12,Belgian Grand Prix,17,9,MAZ,Haas F1 Team,['W'],[3],0,1
+2021,12,Belgian Grand Prix,18,7,RAI,Alfa Romeo Racing,['W'],[3],0,1
+2021,12,Belgian Grand Prix,19,11,PER,Red Bull Racing,['W'],[3],0,1
+2021,12,Belgian Grand Prix,20,18,STR,Aston Martin,['W'],[3],0,1
 2021,13,Dutch Grand Prix,1,33,VER,Red Bull Racing,"['S', 'M', 'H']","[21, 19, 32]",2,72
 2021,13,Dutch Grand Prix,2,44,HAM,Mercedes,"['S', 'M', 'M', 'S']","[20, 19, 31, 2]",3,72
 2021,13,Dutch Grand Prix,3,77,BOT,Mercedes,"['S', 'M', 'S']","[31, 36, 5]",2,72
@@ -3437,3 +3437,23 @@ year,round,grand_prix,finish_position,number,driver,constructor,stint_compounds,
 2025,23,Qatar Grand Prix,18,6,HAD,Racing Bulls,"['M', 'M', 'H']","[7, 25, 23]",2,55
 2025,23,Qatar Grand Prix,DNF,87,BEA,Haas F1 Team,"['M', 'M', 'H', 'H']","[7, 25, 8, 1]",3,41
 2025,23,Qatar Grand Prix,DNF,27,HUL,Kick Sauber,['S'],[6],0,6
+2025,24,Abu Dhabi Grand Prix,1,1,VER,Red Bull Racing,"['M', 'H']","[23, 35]",1,58
+2025,24,Abu Dhabi Grand Prix,2,81,PIA,McLaren,"['H', 'M']","[41, 17]",1,58
+2025,24,Abu Dhabi Grand Prix,3,4,NOR,McLaren,"['M', 'H', 'H']","[16, 24, 18]",2,58
+2025,24,Abu Dhabi Grand Prix,4,16,LEC,Ferrari,"['M', 'H', 'M']","[16, 23, 19]",2,58
+2025,24,Abu Dhabi Grand Prix,5,63,RUS,Mercedes,"['M', 'H']","[14, 44]",1,58
+2025,24,Abu Dhabi Grand Prix,6,14,ALO,Aston Martin,"['M', 'H']","[16, 42]",1,58
+2025,24,Abu Dhabi Grand Prix,7,31,OCO,Haas F1 Team,"['M', 'H']","[19, 39]",1,58
+2025,24,Abu Dhabi Grand Prix,8,44,HAM,Ferrari,"['S', 'H', 'M']","[8, 23, 27]",2,58
+2025,24,Abu Dhabi Grand Prix,9,27,HUL,Kick Sauber,"['S', 'H', 'M']","[7, 35, 16]",2,58
+2025,24,Abu Dhabi Grand Prix,10,18,STR,Aston Martin,"['H', 'M']","[42, 16]",1,58
+2025,24,Abu Dhabi Grand Prix,11,5,BOR,Kick Sauber,"['M', 'H']","[15, 43]",1,58
+2025,24,Abu Dhabi Grand Prix,12,87,BEA,Haas F1 Team,"['M', 'H']","[14, 44]",1,58
+2025,24,Abu Dhabi Grand Prix,13,55,SAI,Williams,"['M', 'H']","[18, 40]",1,58
+2025,24,Abu Dhabi Grand Prix,14,22,TSU,Red Bull Racing,"['H', 'M']","[32, 26]",1,58
+2025,24,Abu Dhabi Grand Prix,15,12,ANT,Mercedes,"['H', 'M']","[32, 26]",1,58
+2025,24,Abu Dhabi Grand Prix,16,23,ALB,Williams,"['S', 'H', 'M']","[8, 25, 25]",2,58
+2025,24,Abu Dhabi Grand Prix,17,6,HAD,Racing Bulls,"['M', 'H']","[14, 43]",1,57
+2025,24,Abu Dhabi Grand Prix,18,30,LAW,Racing Bulls,"['M', 'H']","[21, 36]",1,57
+2025,24,Abu Dhabi Grand Prix,19,10,GAS,Alpine,"['M', 'H', 'M']","[13, 27, 17]",2,57
+2025,24,Abu Dhabi Grand Prix,20,43,COL,Alpine,"['M', 'H', 'M']","[15, 25, 17]",2,57
