@@ -17,4 +17,15 @@ The project visualises tyre usage, stint lengths, and pit stop timing on a per-d
 
 - **Frontend:** React + Tailwind CSS  
 - **Data:** FastF1
-- **Languages:** JavaScript and Python
+- **Backend:** Python and Jupyter
+
+## Instructions to Run
+Clone the repository and open the directory
+```
+git clone https://github.com/idris-p/F1-Strategy-Viewer.git
+cd F1-Strategy-Viewer
+```
+Run the project using Docker
+```
+docker compose up
+```
