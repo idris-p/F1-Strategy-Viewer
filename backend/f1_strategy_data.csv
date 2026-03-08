@@ -3457,3 +3457,25 @@ year,round,grand_prix,finish_position,number,driver,constructor,stint_compounds,
 2025,24,Abu Dhabi Grand Prix,18,30,LAW,Racing Bulls,"['M', 'H']","[21, 36]",1,57
 2025,24,Abu Dhabi Grand Prix,19,10,GAS,Alpine,"['M', 'H', 'M']","[13, 27, 17]",2,57
 2025,24,Abu Dhabi Grand Prix,20,43,COL,Alpine,"['M', 'H', 'M']","[15, 25, 17]",2,57
+2026,1,Australian Grand Prix,1,63,RUS,Mercedes,"['M', 'H']","[12, 46]",1,58
+2026,1,Australian Grand Prix,2,12,ANT,Mercedes,"['M', 'H']","[12, 46]",1,58
+2026,1,Australian Grand Prix,3,16,LEC,Ferrari,"['M', 'H']","[25, 33]",1,58
+2026,1,Australian Grand Prix,4,44,HAM,Ferrari,"['M', 'H']","[28, 30]",1,58
+2026,1,Australian Grand Prix,5,1,NOR,McLaren,"['M', 'H', 'M']","[11, 23, 24]",2,58
+2026,1,Australian Grand Prix,6,3,VER,Red Bull Racing,"['H', 'M', 'H']","[18, 23, 17]",2,58
+2026,1,Australian Grand Prix,7,87,BEA,Haas F1 Team,"['M', 'H']","[18, 39]",1,57
+2026,1,Australian Grand Prix,8,41,LIN,Racing Bulls,"['M', 'H']","[18, 39]",1,57
+2026,1,Australian Grand Prix,9,5,BOR,Audi,"['M', 'H', 'H']","[18, 15, 24]",2,57
+2026,1,Australian Grand Prix,10,10,GAS,Alpine,"['M', 'H']","[11, 46]",1,57
+2026,1,Australian Grand Prix,11,31,OCO,Haas F1 Team,"['M', 'H']","[11, 46]",1,57
+2026,1,Australian Grand Prix,12,23,ALB,Williams,"['M', 'H', 'S']","[12, 21, 24]",2,57
+2026,1,Australian Grand Prix,13,30,LAW,Racing Bulls,"['M', 'H', 'S']","[11, 22, 24]",2,57
+2026,1,Australian Grand Prix,14,43,COL,Alpine,"['H', 'H', 'S']","[9, 37, 10]",2,56
+2026,1,Australian Grand Prix,15,55,SAI,Williams,"['S', 'H', 'M', 'S']","[11, 22, 12, 11]",3,56
+2026,1,Australian Grand Prix,16,11,PER,Cadillac,"['M', 'H', 'S']","[18, 25, 12]",2,55
+2026,1,Australian Grand Prix,DNF,18,STR,Aston Martin,"['M', 'H', 'S', 'S', 'S']","[11, 15, 8, 5, 4]",4,43
+2026,1,Australian Grand Prix,DNF,14,ALO,Aston Martin,"['S', 'S', 'S']","[10, 2, 9]",2,21
+2026,1,Australian Grand Prix,DNF,77,BOT,Cadillac,"['H', 'H']","[11, 4]",1,15
+2026,1,Australian Grand Prix,DNF,6,HAD,Red Bull Racing,['M'],[10],0,10
+2026,1,Australian Grand Prix,DNS,81,PIA,McLaren,[],[],0,0
+2026,1,Australian Grand Prix,DNS,27,HUL,Audi,['H'],[0],0,0
