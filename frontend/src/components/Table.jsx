@@ -9,6 +9,8 @@ function Table( { year, roundNumber } ) {
         "AlphaTauri": "/AlphaTauri.png",
         "Alpine": "/Alpine.png",
         "Aston Martin": "/Aston_Martin.png",
+        "Audi": "/Audi.png",
+        "Cadillac": "/Cadillac.png",
         "Ferrari": "/Ferrari.png",
         "Force India": "/Force_India.png",
         "Haas F1 Team": "/Haas.png",

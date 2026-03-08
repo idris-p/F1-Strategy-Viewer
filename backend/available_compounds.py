@@ -189,11 +189,11 @@ available_compounds = {
         23: {'SOFT': 'C3', 'MEDIUM': 'C2', 'HARD': 'C1'},
         24: {'SOFT': 'C5', 'MEDIUM': 'C4', 'HARD': 'C3'}
     },
-    # 2026: {
-    #     1: {'SOFT': 'C5', 'MEDIUM': 'C4', 'HARD': 'C3'},
-    #     2: {'SOFT': 'C4', 'MEDIUM': 'C3', 'HARD': 'C2'},
-    #     3: {'SOFT': 'C3', 'MEDIUM': 'C2', 'HARD': 'C1'}
-    # }
+    2026: {
+        1: {'SOFT': 'C5', 'MEDIUM': 'C4', 'HARD': 'C3'},
+        2: {'SOFT': 'C4', 'MEDIUM': 'C3', 'HARD': 'C2'},
+        3: {'SOFT': 'C3', 'MEDIUM': 'C2', 'HARD': 'C1'}
+    }
 }
 
 def get_available_compounds(year, round_number):
