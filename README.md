@@ -1,6 +1,6 @@
-# Formula One Strategy Viewer
+# Formula One Strategy Analyser
 
-An interactive Formula One strategy viewer that allows you to explore the race strategies used by every driver in every Grand Prix since 2018.
+An interactive Formula One strategy analysis tool that allows you to explore the race strategies used by every driver in every Grand Prix since 2018.
 
 The project visualises tyre usage, stint lengths, and pit stop timing on a per-driver basis, making it easy to analyse how strategies differed across drivers, teams, and races.
 
@@ -22,8 +22,8 @@ The project visualises tyre usage, stint lengths, and pit stop timing on a per-d
 ## Instructions to Run
 Clone the repository and open the directory
 ```
-git clone https://github.com/idris-p/F1-Strategy-Viewer.git
-cd F1-Strategy-Viewer
+git clone https://github.com/idris-p/F1-Strategy-Analyser.git
+cd F1-Strategy-Analyser
 ```
 Run the project using Docker
 ```
